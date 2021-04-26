@@ -1,1 +1,90 @@
 /*stylesheet*/
+
+
+body{
+	margin: 0;
+	background-color: #2e1d23;
+	color: black;
+	font-family: 'Source Code Pro', monospace;
+	
+}
+
+h1 {
+	font-family: herencia, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 100px;
+	text-align: center;
+	margin-top: 0em;
+	display: block;
+
+}
+
+h2 {
+	font-family: herencia, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 50px;
+
+}
+
+p {
+	font-size: 15px;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+#masthead {
+	background-color: white;
+} 
+
+#nav {
+	background-color: white;
+}
+
+#logo {
+	padding: 0;
+}
+
+#logo a {
+	color: var(--body-color);
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#logo svg {
+	width: 10%;
+}
+
+#logo img {
+	width: 50%;
+}
+
+#nav ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+#nav li {
+	margin-bottom: 1em;
+
+}
+
+#nav li a{
+	color: black;
+	transition: all .3s ease-in-out;
+	text-align: left;
+	text-decoration: none;
+	display: block;
+}
+
+#nav li a:hover{
+	color: gray;
+	text-decoration: none;
+	background-color: none;
