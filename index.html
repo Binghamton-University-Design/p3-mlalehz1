@@ -4,46 +4,69 @@
 <html>
 	<head>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> 
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
+		<!-- https://cdnjs.com/libraries/slick-carousel -->
+
+
 		<script src="js/main.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/grid.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://use.typekit.net/pda7wbn.css">
+		<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500;600&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.typekit.net/pda7wbn.css">
 		<title>Project 3</title>
 	</head>
 
 	<body>
 		<div id="masthead">
+				<div class="width-12-12 width-12-12-m">
+						<div class="nav-menu">
+							<a title="Photos" href="photos.html">Photo Gallery</a>
+							<a title="Timeline" href="timeline.html">Timeline</a>
+							<a title="Videos" href="videos.html">Videos</a>
+						</div>
+					</div>
+				</div>
 				<div class="wrapper">
 					<div id="nav" class="grid">
 						<div class="width-12-12 width-12-12-m">
-						<div class="width-12-12 width-12-12-m">
-						<ul class="nav-menu">
-							<li><a title="Photos" href="photos.html">Photo Gallery</a></li>
-							<li><a title="Timeline" href="timeline.html">Timeline</a></li>
-							<li><a title="Videos" href="videos.html">Videos</a></li>
+							<div id="logo">
+								<a href="index.html" title="logo"/>
+									<img src="images/image 3.png" title="logo"/>
+								</a>
+								<h1>Hoori Poursalimi</h1>
+							</div>
 						</div>
-						<div id="logo">
-							<a href="index.html" title="logo"/>
-								<img src="images/image 3.png" title="logo"/>
-							</a>
-						</div>
-						<h1>Hoori Poursalimi</h1>
 					</div>
+						
+		<div id="content" class="width-8-12 width-12-12-m">
+			<div class="item">
+				<h2>Early Life</h2>
+				<p>Text here.</p>
+			</div>	
+		</div>
 
-				
-					<div id="content" class="width-8-12 width-12-12-m">
-						<div class="item">
-							<h2>Early Life</h2>
-							<p>Text here.</p>
-						</div>	
-					</div>
-					
+		<div id="slider">
+					<div class="wrapper">
+						<div class="prev"><span>←</span></div>
+						<div class="next"><span>→</span></div>
+						<div id="slider-inner">
+							<div class="slide">
+								<img src="images/image.jpeg" />
+							</div>
+							<div class="slide">
+								<img src="images/IMG_3504.png" />
+							</div>
+							<div class="slide">
+								<img src="images/scanned documents 4.png" />
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
+					
 	</body>
 
 </html>
