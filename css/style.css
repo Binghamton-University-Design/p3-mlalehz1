@@ -17,20 +17,29 @@ h1 {
 	font-family: herencia, sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	font-size: 50px;
+	color: black;
 	text-align: center;
-	margin-top: 0em;
-	display: block;
+	margin-bottom: 10px;
 }
 
 h2 {
 	font-family: herencia, sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 50px;
+	font-size: 40px;
+	color: white;
+	margin: 50px;
+	margin-bottom: 10px;
 }
 
 p {
 	font-size: 15px;
+	color: white;
+	margin: 50px;
+	margin-top: 8px;
+	margin-bottom: 10px;
+	text-align: left;
 }
 
 a:focus,button:focus,input:focus,textarea:focus {outline: none;}
@@ -44,46 +53,55 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
 /* Masthead */
 #masthead {
 	background-color: white;
-	padding: 0 1rem;
+	padding: 1rem 0;
 } 
 
 #nav {
 	background-color: white;
 }
 
-#nav .nav-menu a img {
-	width: 200px;
-	height: auto;
-	display: block;
-
+#nav .nav-menu {
+	display: flex;
+	align-items: right;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
 }
 
-#logo {
-	padding: 1rem 0;
+#nav .nav-menu a {
+	color: black;
+	text-decoration: none;
 }
 
-#logo #logo-holder {
+#nav .nav-menu a:hover, #nav .nav-menu a.active {
+  text-decoration: underline;
+}
+
+.container {
   position: relative;
-  color: var(--body-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+  color: white;
+  
+}
+.centered {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: herencia, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 6vw;
 }
 
-
-#logo a {
-	width: 30%;	
-}
-
-#logo img {
-	width: 50%;
-	height: auto;
-	display: block;
-	justify-content: center;
+#portrait {
+	position: relative;
 }
 
 #portrait img {
-	width: 50%;
+	width: 40%;
 	height: auto;
 	display: block;
 	justify-content: center;
@@ -160,7 +178,6 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
 
   #logo #logo-holder {
     justify-content: center;
-    margin: 1rem 0;
   }
 
   #logo a {
@@ -184,3 +201,5 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
   }
 
 }
+
+
