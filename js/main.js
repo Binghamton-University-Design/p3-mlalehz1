@@ -10,4 +10,10 @@ $('#slider-inner').slick({
     nextArrow: $('.next'),
   });
 
+ $('a[data-slide]').click(function(e) {
+   e.preventDefault();
+   var slideno = $(this).data('slide');
+   $('#slider-inner').slick('slickGoTo', slideno - 1);
+ });
+
 });
