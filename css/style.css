@@ -49,18 +49,23 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
 	position: relative;
 	margin: 0 auto;
 	max-width: 1200px;
-  padding: 2rem;
+ 	padding: 0;
+ 	margin-bottom: 3em;
 }
 
 /* Masthead */
 #masthead {
 	background-color: white;
 	padding: 0;
-
+	margin: 0;
+	
 } 
 
 #nav {
 	background-color: white;
+	padding: 0;
+	margin: 0;
+
 }
 
 .nav-menu {
@@ -69,6 +74,8 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
 #masthead .nav-menu a {
 	color: black;
 	text-decoration: none;
+	font-size: .7em;
+	margin-left: 10px;
 }
 
 #masthead .nav-menu a:hover, #nav .nav-menu a.active {
@@ -80,8 +87,10 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
   position: relative;
   text-align: center;
   color: white;
-  
+  margin: 0;
+  padding: 0;
 }
+
 .centered {
   position: absolute;
   top: 80%;
@@ -90,7 +99,7 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
   font-family: herencia, sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 8vw;
+	font-size: 350%;
 }
 
 .bottom-right {
@@ -141,7 +150,10 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
 
 #slider {
   overflow: hidden;
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  height: 50%;
+  width: auto;
 }
 
 #slider .prev, #slider .next {
@@ -158,7 +170,7 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
 .slide img {
   display: block;
   width: 100%;
-  height: auto;
+  height: auto; 
 }
 
 .prev {
@@ -171,8 +183,9 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
 
 .prev span, .next span {
   cursor: pointer;
-  display: block;
-  background: #fff;
+  display: flex;
+  background: none;
+  color: white;
 }
 
 #slider img {
@@ -188,7 +201,7 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
 }
 
 #photos .grid {
-  grid-gap: 0;
+  grid-gap: .5em;
 }
 
 #photos .grid img {
@@ -197,6 +210,23 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
   width: 100%;
 }
 
+/*videos*/
+#videos .content {
+	display: block;
+	align-items: center;
+  	justify-content: center;
+  	position: absolute;
+  	margin-right: 5em;
+  	
+}
+
+#videos .content a{
+	font-size: 15px;
+}
+
+p {
+	
+}
 
 /* media queries */
 @media all and (max-width: 699px) { 
