@@ -27,14 +27,14 @@ h2 {
 	font-family: herencia, sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 40px;
+	font-size: 5vh;
 	color: white;
 	margin: 50px;
 	margin-bottom: 10px;
 }
 
 p {
-	font-size: 15px;
+	font-size: 2vh;
 	color: white;;
 	margin-top: 8px;
 	margin-bottom: 10px;
@@ -68,6 +68,7 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
 }
 
 .nav-menu {
+
 }
 
 #masthead .nav-menu a {
@@ -113,6 +114,7 @@ a:focus,button:focus,input:focus,textarea:focus {outline: none;}
 
 #portrait {
 	position: relative;
+
 }
 
 #portrait img {
